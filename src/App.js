@@ -5,28 +5,31 @@ function App() {
   return (
     <div className='App'>
       <div className='contenedor-principal'>
-        <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp:</h1>
-        <Testimonio
-          nombre='Shawn Wang'
-          pais='Singapur'
-          imagen='shawn'
-          cargo='Ingeniero de Software'
-          empresa='Amazon'
-          testimonio='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida.'/>
-        <Testimonio
-          nombre='Sarah Chima'
-          pais='Nigeria'
-          imagen='sarah'
-          cargo='Ingeniera de Software'
-          empresa='ChatDesk'
-          testimonio='freeCodeCamp fue la puerta de entrada a mi carrera como desarrollador de software. El plan de estudios bien estructurado llevó mis conocimientos de programación de un nivel de principiante total a un nivel muy seguro. Era todo lo que necesitaba para conseguir mi primer trabajo de desarrollador en una empresa increíble.'/>
+        <h1>Testimonios de jugadores sobre "La Liga"</h1>
         <Testimonio 
-          nombre='Emma Bostian'
-          pais='Suecia'
-          imagen='emma'
-          cargo='Ingeniera de Software'
-          empresa='Spotify'
-          testimonio='Siempre he tenido problemas para aprender JavaScript. He tomado muchos cursos, pero el curso de freeCodeCamp fue el que se quedó. Estudiar JavaScript, así como estructuras de datos y algoritmos en freeCodeCamp me dio las habilidades y la confianza que necesitaba para conseguir el trabajo de mis sueños como ingeniero de software en Spotify.'/>
+        nombre="Lionel Andrés Messi Cuccittini"
+        pais="Rosario, Argentina"
+        imagen="messi"
+        cargo="Futbolista"
+        empresa="Integrante del Paris Saint-Germain de la Ligue 1 de Francia"
+        palabrasRelevantes="El fútbol español"
+        testimonio=" es una verdadera pasión que se respira en cada rincón del país. Desde el primer día que llegué a Barcelona, me di cuenta de la grandeza de esta liga y del fervor con el que los aficionados viven el deporte. La rivalidad entre los equipos es intensa y emocionante, lo que se traduce en partidos vibrantes que mantienen a todos en vilo hasta el último minuto." />
+        <Testimonio 
+        nombre="Cristiano Ronaldo dos Santos Aveiro"
+        pais="Funchal, Portugal"
+        imagen="cristiano"
+        cargo="Futbolista"
+        empresa="Integrante del Al-Nassr F de la Liga Profesional Saudi."
+        palabrasRelevantes="El fútbol español"
+        testimonio=" me ha permitido alcanzar logros increíbles y batir récords históricos. He tenido el honor de ganar múltiples títulos con el Real Madrid y de contribuir al éxito del equipo. La pasión y el compromiso de los aficionados españoles han sido una motivación constante para superarme y dar siempre lo mejor de mí." />
+        <Testimonio
+        nombre="Radamel Falcao García Zárate"
+        pais="Santa Marta, Colombia"
+        imagen="falcao"
+        cargo="Futbolista"
+        empresa="Integrante del Rayo Vallecano de Madrid de la Primera División de España"
+        palabrasRelevantes="El fútbol español"
+        testimonio=" me ha permitido alcanzar metas y dejar mi huella. Pude vivir momentos de gloria y éxito, tanto a nivel individual como colectivo. El apoyo de los aficionados y la pasión del juego español me han dado la fuerza y la determinación para superar obstáculos y lograr grandes cosas. Estoy orgulloso de haber sido parte de la historia del fútbol español." />
       </div>
     </div>
   );
